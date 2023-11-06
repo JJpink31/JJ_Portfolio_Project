@@ -68,13 +68,7 @@ a :hover {
     transition: var(--transitons-hover);
 }
 
-.paragraphs {
-    display: flex;
-    justify-content: space-between;
-    flex: 1;
-}
-
-p {
+.about-info {
     display: block;
     background: rgba(231, 94, 151, 0.6);
     color: rgba(255, 255, 255, 0.9);
