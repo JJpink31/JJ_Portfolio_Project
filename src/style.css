@@ -16,41 +16,12 @@ body {
     margin: 0 auto;
 }
 
-@media (max-width: 800px) {
-    .project-container{
-        margin-top: 30px
-
-    }
-    #app-title{
-        font-size: 10px;
-        line-height: 1;
-        margin-bottom: 30px;
-    }
-    h1{
-        padding:5px;
-        font-size: 20px;
-    }
-    h2{
-        font-size: 50px;
-    }
-    h3{
-        font-size: 30px;
-    }
-}
-@media(max-width:600px) {
-    #page1-img {
-            display: none;
-        }
-    
-}
-
-
-h3 {
-    color: rgb(188, 80, 123);
+h1 {
+    color: rgba(207, 50, 113, 0.807);
     font-family: var(--secondary-font);
     font-weight: 600;
-    font-size: 25px;
-    margin-top: 100px;
+    font-size: 30px;
+    margin-bottom: 70px;
 }
 
 h2 {
@@ -61,14 +32,16 @@ h2 {
     font-family: var(--main-font);
 }
 
-h1 {
-    color: rgba(207, 50, 113, 0.807);
+
+
+h3 {
+    color: rgb(188, 80, 123);
     font-family: var(--secondary-font);
     font-weight: 600;
-    font-size: 30px;
-    margin-bottom: 70px;
-
+    font-size: 25px;
+    margin-top: 100px;
 }
+
 
 #app-title {
     font-size: 60px;
@@ -185,6 +158,44 @@ a {
     border: 4px solid white;
     border-radius: 10px
 }
+
+@media (max-width: 800px) {
+    .project-container {
+        margin-top: 30px
+    }
+
+    #app-title {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+
+    h1 {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:600px) {
+    #page1-img {
+        display: none;
+    }
+
+}
+
 @media (max-width:500px) {
     #page-2-h1 {
        font-size: 60px;
