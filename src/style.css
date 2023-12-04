@@ -142,6 +142,7 @@ a {
 
 .contact-input {
     max-width: 800px;
+    color: var(--primary-color);
 }
 
 
