@@ -70,84 +70,34 @@
       </div>
     </nav>
     <div class="hero">
-      <h1 class="mb-4" id="page-2-h1">Let's get in Touch!</h1>
-
-      <div class="contact-input p-3">
-        <form onsubmit="sendEmail(); reset(); return false;">
-          <div class="form-floating mb-3">
-            <input
-              type="text"
-              class="form-control"
-              id="name"
-              placeholder="First and Last Name"
-            />
-            <label for="floatingNameInput">First and Last Name</label>
-          </div>
-          <div class="form-floating mb-3">
-            <input
-              type="email"
-              class="form-control"
-              id="email"
-              placeholder="name@example.com"
-            />
-            <label for="floatingInput">Email address</label>
-          </div>
-
-          <div class="form-floating mb-3">
-            <select
-              class="form-select"
-              id="selection"
-              aria-label="Floating label select example"
-            >
-              <option value="1">General Inquiry/ Get a Quote</option>
-              <option value="2">Check Order Status or Revisions</option>
-            </select>
-            <label for="floatingSelect">Reasons for Contacting</label>
-          </div>
-
-          <div class="form-floating mb-3">
-            <textarea
-              class="form-control"
-              placeholder="Leave a comment here"
-              id="message"
-              style="height: 300px"
-            ></textarea>
-            <label for="floatingTextarea2">Tell me what's on your mind</label>
-          </div>
-          <button
-            type="submit"
-            class="btn btn-light btn-lg float-end pt-2 pb-2 mb-5"
-            style="color: rgb(118, 48, 99)"
-            id="submit-button"
-          >
-            Submit
-          </button>
-        </form>
-      </div>
-      <h3 id="contact">Contact Me</h3>
-      <div class="mail-emoji">📮</div>
+      <h1 class="mb-5" id="page-2-h1">Let's get in Touch!</h1>
+      <h2 class="fs-1 mb-2">
+        <i class="fa-solid fa-envelope" style="color: #a03446"></i> Email
+      </h2>
+      <h3 class="mb-5">
+        <a href="mailto:jjosifovic31@gmail.com" target="_blank"
+          >jjosifovic31@gmail.com</a
+        >
+      </h3>
+      <h2 class="fs-1 mb-2">
+        <i class="fa-brands fa-instagram" style="color: #a03446"></i> Instagram
+      </h2>
+      <h3 class="mb-5">
+        <a href="https://www.instagram.com/jordanka_art/" target="_blank"
+          >@jordanka_art</a
+        >
+      </h3>
+      <h2 class="fs-1 mb-2">
+        <i class="fa-brands fa-linkedin" style="color: #a03446"></i> Linkden
+        Account
+      </h2>
+      <h3 class="mb-5">
+        <a
+          href="https://www.linkedin.com/in/jordanka-josifovic-6649b2100"
+          target="_blank"
+          >www.linkedin.com/in/jordanka-josifovic</a
+        >
+      </h3>
     </div>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-      function sendEmail() {
-        Email.send({
-          Host: "smtp.gmail.com",
-          Username: "thepinkcat.business@gmail.com",
-          Password: "ffqc fdjj jmni ujnj",
-          To: "thepinkcat.business@gmail.com",
-          From: document.getElementById("email").value,
-          Subject: "New Contact Form Inquiry",
-          Body:
-            "Name: " +
-            document.getElementById("name").value +
-            "<br> Email: " +
-            document.getElementById("email").value +
-            "<br> Selection : " +
-            document.getElementById("selection").value +
-            "<br> Comment-Section " +
-            document.getElementById("message").value,
-        }).then((message) => alert(message));
-      }
-    </script>
   </body>
 </html>
