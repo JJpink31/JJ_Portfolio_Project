@@ -117,13 +117,13 @@ a :hover {
 }
 
 #contact {
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 80px;
     margin-bottom: 10px;
 }
 
 .mail-emoji {
-    font-size: 70px;
+    font-size: 90px;
 }
 
 .email-link {
@@ -136,7 +136,7 @@ a {
 }
 
 
-.project-gallery {
+.project-gallery, .contact-container {
     background: rgba(255, 233, 242, 0.6);
     max-width: 85%;
     margin: 0 auto;
