@@ -61,9 +61,11 @@ footer {
   font-family: var(--secondary-font);
   color: var(--primary-color);
 }
-
+.resumeLink {
+  font-size: 20px;
+}
 .link-icons {
-  margin-top: 100px;
+  margin-top: 15px;
   font-size: 32px;
   opacity: 95%;
 }
@@ -118,12 +120,13 @@ a :hover {
 
 #contact {
   font-size: 50px;
-  margin-top: 80px;
+  margin-top: 150px;
   margin-bottom: 10px;
 }
 
 .mail-emoji {
   font-size: 90px;
+  margin-bottom: 5px;
 }
 
 .email-link {
